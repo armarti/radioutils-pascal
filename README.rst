@@ -1,6 +1,8 @@
 .. image:: https://travis-ci.org/scivision/radioutils-pascal.svg?branch=master
     :target: https://travis-ci.org/scivision/radioutils-pascal
 
+#### This branch contains only the cmake modules and an example CMakeLists.txt
+
 ===============================
 Pascal radio utilities by G4FGQ
 ===============================
