@@ -61,11 +61,7 @@ if(${CMAKE_VERSION} VERSION_LESS 2.8.10)
     configure_file(${CMAKE_MODULE_PATH}/CMakePascalCompiler.cmake.in
                    "${CMAKE_BINARY_DIR}/${CMAKE_FILES_DIRECTORY}/CMakePascalCompiler.cmake"
                    IMMEDIATE )
-else(${CMAKE_VERSION} VERSION_LESS 2.8.10)
-    configure_file(${CMAKE_MODULE_PATH}/CMakePascalCompiler.cmake.in
-                  "${CMAKE_BINARY_DIR}/${CMAKE_FILES_DIRECTORY}/${CMAKE_VERSION}/CMakePascalCompiler.cmake"
-                   IMMEDIATE )
-endif(${CMAKE_VERSION} VERSION_LESS 2.8.10)
+endif()
 
 set(CMAKE_Pascal_COMPILER_ENV_VAR "FPC")
 
